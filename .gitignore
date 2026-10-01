@@ -1,0 +1,21 @@
+# never commit credentials or local state
+*.key
+*.pem
+auth.json
+*.db
+*.db-shm
+*.db-wal
+*.zip
+*.enc
+farm-config-*
+openchamber-full-*
+node_modules/
+.openchamber.env
+.farm.env
+.ui-password
+*password*
+*secret*
+queue/
+logs/
+.seen/
+.DS_Store

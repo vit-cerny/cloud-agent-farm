@@ -1,0 +1,13 @@
+[Unit]
+Description=Farm agent worker loop 24/7
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=farm
+ExecStart=/home/farm/agent-farm/bin/agent-loop.sh
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,4 @@
+# shell scripts must stay LF or the VM chokes on them
+*.sh text eol=lf
+*.service text eol=lf
+*.example text eol=lf

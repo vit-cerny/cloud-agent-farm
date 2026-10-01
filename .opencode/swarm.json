@@ -1,0 +1,1 @@
+﻿{"orchestrator": {"model": "opencode-go/muse-spark-1.3-contributor", "variant": "xhigh"}, "executor": {"model": "opencode-go/muse-spark-1.3-contributor", "variant": "high"}, "roles": ["executor", "executor-frontend", "executor-tests", "executor-docs"]}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Filebrowser - agent farm file manager
+After=network.target
+
+[Service]
+User=farm
+Group=farm
+WorkingDirectory=/home/farm/filebrowser
+ExecStart=/home/farm/filebrowser/filebrowser
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
