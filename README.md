@@ -41,8 +41,8 @@ local/bin/remote-supervise.sh  cron every 30 min: reads ONLY summaries,
    ```
    If your `openchamber-full-*.zip[.enc]` sits next to it, your skills,
    agents, MCPs, settings and keys are restored too (passphrase asked once).
-   (Fresh VM without the repo? This file is self-contained — no `git clone` needed.
-   With the repo: `bash vm/setup-farm-vm.sh` does the same minus the bundle import.)
+   (Prefer git? On the VM: `git clone https://github.com/vit-cerny/cloud-agent-farm.git`
+   then `bash cloud-agent-farm/vm/farm-one-click.sh` — same result, plus updates via `git pull`.)
    Save the printed OpenChamber UI password (shown once).
 3. **Give the workers brains** (pick what you use):
    - `opencode auth login` — or place your `auth.json` in
